@@ -1,0 +1,103 @@
+* {
+    margin:0;
+    padding:0;
+}
+.sidebar {
+    width: 440px;
+    border: 1px solid #CCCCCC;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.comment-header {
+    padding: 30px 0 30px 30px;
+    border-bottom: 1px solid #fff;
+}
+h2 {
+    font-size: 23px;
+    font-weight: 700;
+    color:#fff;
+    line-height: 16px;
+}
+.comment-out {
+    padding:40px;
+    overflow: auto;
+    height: 460px;
+    border-bottom: 1px solid #ccc;
+}
+.comment-out::-webkit-scrollbar {
+    width: 0;
+}
+.user-comment {
+    margin-bottom: 40px;
+}
+.user-comment h4 {
+    font-size: 18px;
+    line-height: 16px;
+    color:#fff;
+    font-weight: 700;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    word-break: break-all;
+}
+.user-comment p {
+    width: 290px;
+    font-size: 13px; 
+    line-height: 16px;
+    color:#fff;
+    box-sizing: border-box;
+    word-break: break-all;
+}
+form {
+    padding:40px 40px 0 40px;    
+    display: flex;
+    flex-direction: column;
+}
+.form-control {
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background: none;
+    width: 290px;
+}
+.username-input {
+    margin-bottom: 15px;
+    padding:12px 0 12px 15px;
+    color: #ffff;
+    box-sizing: border-box;
+    word-break: break-all;
+}
+.comment-input {
+    padding:24px 0 76px 15px;
+    color: #fff;
+    box-sizing: border-box;
+    word-break: break-all;
+    overflow: auto;
+}
+.post-btn {
+    width: 80px;
+    height: 30px;
+    margin-left: auto;
+    margin-top: 15px;
+    background: #885FFB;
+    border-radius: 5px;
+    border:none;
+    cursor: pointer;
+    font-size: 16px;
+    color:#fff;
+}
+
+@media (max-width: 1199.98px) {
+    
+}
+@media (max-width: 991.98px) {
+    
+}
+@media (max-width: 767.98px) {
+    
+}
+@media (max-width: 575.98px) {
+    .sidebar {
+        width: 550px;
+    }
+}
